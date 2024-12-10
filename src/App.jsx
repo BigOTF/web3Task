@@ -11,7 +11,7 @@ import Work from './components/work/Work';
 function App() {
 
   return (
-    <div className='pb-[600px] relative'>
+    <div className='relative'>
       <Header />
       <Hero />
       <Brand />

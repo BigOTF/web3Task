@@ -18,7 +18,7 @@ const Choose = () => {
       </div>
 
       <div className='flex flex-col gap-20 px-4'>
-        <p className='font-inter font-bold text-6xl lg:text-[64px] lg:leading-[64px] text-[#fff] text-center'>Why <span className='choose-text-gradient'>choose us?</span></p>
+        <p className='font-inter font-bold text-6xl leading-[70px] lg:text-[64px] lg:leading-[64px] text-[#fff] text-center'>Why <span className='choose-text-gradient'>choose us?</span></p>
       </div>
 
       <div className='grid gap-7 md:grid-cols-2 md:gap-9 lg:grid-cols-4 lg:gap-[15px]'>
