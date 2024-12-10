@@ -15,7 +15,7 @@ import Footer from './components/footer/Footer';
 function App() {
 
   return (
-    <div className='relative pb-[600px]'>
+    <div className='relative'>
       <Header />
       <Hero />
       <Brand />
