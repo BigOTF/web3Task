@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
-
 import { GoArrowUpRight } from "react-icons/go";
 
 const Hero = () => {

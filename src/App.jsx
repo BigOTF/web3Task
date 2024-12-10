@@ -9,11 +9,13 @@ import Achievement from './components/achievement/Achievement';
 import Work from './components/work/Work';
 import Roadmap from './components/roadmap/Roadmap';
 import FAQ from './components/Faq/FAQ';
+import Building from './components/building/Building';
+import Footer from './components/footer/Footer';
 
 function App() {
 
   return (
-    <div className='relative'>
+    <div className='relative pb-[600px]'>
       <Header />
       <Hero />
       <Brand />
@@ -22,6 +24,8 @@ function App() {
       <Work />
       <Roadmap />
       <FAQ />
+      <Building />
+      <Footer />
     </div>
   )
 }

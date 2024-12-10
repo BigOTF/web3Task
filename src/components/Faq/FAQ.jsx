@@ -15,7 +15,7 @@ const FAQ = () => {
             return (
                 <div key={data.id} className=''>
 
-                    <div className='flex flex-col px-1'>
+                    <div className='flex flex-col lg:px-1'>
 
                         <div className='flex items-center justify-between'>
                             <p className='font-inter font-bold text-[21px] text-[#fff]'>{data.question}</p>
@@ -34,7 +34,7 @@ const FAQ = () => {
 
                     </div>
 
-                    <div className='border border-[#B7B4BB] mt-7 lg:mt-4'></div>
+                    <div className='border border-[#B7B4BB] mt-5 md:mt-7 lg:mt-4'></div>
 
                 </div>
             )
@@ -53,7 +53,7 @@ const FAQ = () => {
                 <p className='font-inter font-bold text-6xl leading-[70px] lg:text-[64px] lg:leading-[64px] text-[#fff] text-center'>Your questions, <span className='choose-text-gradient'>answered!</span></p>
             </div>
 
-            <div className='px-12 pt-[30px] pb-[49px] rounded-3xl border stroke-[#FFFFFF] md:w-[600px] lg:w-[688px]'>
+            <div className='px-6 lg:px-12 pt-[30px] pb-[49px] rounded-3xl border stroke-[#FFFFFF] md:w-[600px] lg:w-[688px]'>
                 <div className='flex flex-col gap-10'>
                     <DisplayFaq />
                 </div>

@@ -10,7 +10,7 @@ const Achievement = () => {
     });
 
   return (
-    <div ref={ref} className='flex flex-col items-center justify-center py-10 md:py-36 lg:py-48 gap-28 lg:gap-32'>
+    <div ref={ref} className='flex flex-col items-center justify-center py-40 gap-28 lg:gap-32'>
 
         <div>
             <img src={'/chooseLine.png'}/>

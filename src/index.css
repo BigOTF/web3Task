@@ -25,3 +25,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.buildingBuilding {
+    background-image: url('/public/buildingBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
