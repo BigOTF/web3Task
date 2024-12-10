@@ -13,7 +13,7 @@ const Hero = () => {
     }, []);
 
   return (
-    <main className='w-full lg:px-[100px] lg:py-[140px] px-[30px] py-[90px] flex flex-col md:flex-row items-center gap-6 lg:gap-4'>
+    <main className='w-full lg:px-[100px] lg:pt-[140px] px-[30px] pb-[120px] pt-[90px] flex flex-col md:flex-row items-center gap-6 lg:gap-4'>
         <div className='flex flex-col items-center lg:items-start gap-8 lg:gap-8'>
             <p className='font-inter font-bold text-[#fff] text-[60px] leading-[70px] lg:text-[72px] lg:pr-16 lg:leading-[85px] text-center lg:text-start'>The on-chain Git Hub is here</p>
             <p className='font-inter text-xl lg:text-2xl lg:leading-9 text-[#B7B4BB] lg:pr-4 text-center lg:text-start'>Spend less money in projects while providing a learning curve for students worldwide.</p>

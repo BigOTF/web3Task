@@ -7,7 +7,7 @@ const Header = () => {
         return setShowNav((prev) => !prev);
     }
   return (
-    <div className='pr-[30px] pl-[20px] py-2 lg:pr-[100px] lg:pl-[80px] sticky top-[20px] lg:top-[50px] right-0 left-0'>
+    <div className='pr-[30px] pl-[20px] py-2 lg:pr-[100px] lg:pl-[80px] sticky top-[20px] lg:top-[50px] right-0 left-0 z-10'>
         <header className='flex items-center justify-between w-full bg-[#1B1B1BCC] rounded-[136px] px-3 py-2 lg:px-16'>
             <div className=''>
                 <img src={'/brand.png'} alt='brand-logo' className='h-[70px] w-[210px] lg:hidden'/>
