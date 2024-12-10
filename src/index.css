@@ -19,6 +19,7 @@ body {
 .choose-gradient {
     background: linear-gradient(to right, #FF2DF7 0%, #5200FF 100%, #00F0FF 100%);
 }
+
 .choose-text-gradient {
     background: linear-gradient(to right, #6100FF 0%, #01F0FF 100%);
     -webkit-background-clip: text;
