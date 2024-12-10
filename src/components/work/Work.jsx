@@ -19,7 +19,7 @@ const Work = () => {
 
         <div className='flex flex-col gap-[80px] lg:gap-[120px]'>
 
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col lg:grid lg:grid-cols-2 items-center'>
                 <div data-aos="fade-up">
                     <img src={'/work.png'}/>
                 </div>
@@ -36,7 +36,7 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col lg:grid lg:grid-cols-2 items-center'>
 
                 <div data-aos="fade-up" className='lg:hidden'>
                     <img src={'/work2.png'}/>
@@ -59,7 +59,7 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col lg:grid lg:grid-cols-2 items-center'>
 
                 <div data-aos="fade-up">
                     <img src={'/work3.png'}/>
