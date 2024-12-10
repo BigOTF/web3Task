@@ -2,7 +2,7 @@ import React from 'react'
 
 const Roadmap = () => {
   return (
-    <div className='px-[30px] lg:px-[100px] w-full py-10'>
+    <div className='px-[30px] lg:px-[100px] w-full py-10 flex flex-col items-center justify-center'>
 
         <div className='flex items-center justify-center mb-20'>
             <img src={'/chooseLine.png'}/>

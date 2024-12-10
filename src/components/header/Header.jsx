@@ -16,7 +16,6 @@ const Header = () => {
 
             <div className='hidden lg:flex gap-7'>
                 <ul className='flex items-center justify-between gap-8'>
-                    <p className='font-inter font-bold text-lg leading-5 text-[#fff] hover:text-[#B7B4BB] transition-all duration-300 cursor-pointer'>Home</p>
                     <p className='font-inter font-bold text-lg leading-5 text-[#fff] hover:text-[#B7B4BB] transition-all duration-300 cursor-pointer'>How it works</p>
                     <p className='font-inter font-bold text-lg leading-5 text-[#fff] hover:text-[#B7B4BB] transition-all duration-300 cursor-pointer'>Roadmap</p>
                     <p className='font-inter font-bold text-lg leading-5 text-[#fff] hover:text-[#B7B4BB] transition-all duration-300 cursor-pointer'>FAQ</p>
