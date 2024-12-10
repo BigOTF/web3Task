@@ -7,6 +7,7 @@ import Brand from './components/brand/Brand';
 import Choose from './components/choose/Choose';
 import Achievement from './components/achievement/Achievement';
 import Work from './components/work/Work';
+import Roadmap from './components/roadmap/Roadmap';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Choose />
       <Achievement />
       <Work />
+      <Roadmap />
     </div>
   )
 }

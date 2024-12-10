@@ -21,7 +21,7 @@ const Work = () => {
 
             <div className='flex flex-col lg:grid lg:grid-cols-2 items-center'>
                 <div data-aos="fade-up">
-                    <img src={'/work.png'}/>
+                    <img src={'/work1.png'}/>
                 </div>
 
                 <div className='lg:pl-14 lg:pr-4 flex flex-col lg:items-start items-center gap-6'>
@@ -45,7 +45,7 @@ const Work = () => {
                 <div className='lg:pl-14 lg:pr-4 flex flex-col lg:items-start items-center gap-6'>
                     <div className='flex flex-col lg:items-start items-center gap-5'>
                         <p className='choose-text-gradient font-inter font-bold text-[19px] leading-[33px]'>02.</p>
-                        <p className='font-inter lg:text-start text-center font-bold text-[40px] leading-[55px] text-[#c9bebe]'>Find a task that matches your skills</p>
+                        <p className='font-inter lg:text-start text-center font-bold text-[40px] leading-[55px] text-[#fff]'>Find a task that matches your skills</p>
                     </div>
 
                     <div className='flex flex-col lg:items-start items-center gap-7'>
@@ -62,7 +62,7 @@ const Work = () => {
             <div className='flex flex-col lg:grid lg:grid-cols-2 items-center'>
 
                 <div data-aos="fade-up">
-                    <img src={'/work3.png'}/>
+                    <img src={'/work4.png'}/>
                 </div>
             
                 <div className='lg:pl-14 lg:pr-4 flex flex-col lg:items-start items-center gap-6'>

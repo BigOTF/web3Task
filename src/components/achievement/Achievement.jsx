@@ -14,8 +14,8 @@ const Achievement = () => {
 
         <div>
             <img src={'/chooseLine.png'}/>
-
         </div>
+        
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
             <div className='px-8 pb-[0.59px] flex flex-col items-center gap-3 lg:gap-[22px]'>
